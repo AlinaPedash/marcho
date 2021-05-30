@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link--active" href="#">HOME</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">SHOP</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">PAGE</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">BLOG</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <img clfss="user-nav__link-img" src="images/icons/user.svg" alt="user icon">
+          </a>
+          <a class="user-nav__link" href="#">
+            <img clfss="user-nav__link-img" src="images/icons/search.svg" alt="user icon">
+          </a>
+          <a class="user-nav__link" href="#">
+            <img clfss="user-nav__link-img" src="images/icons/heart.svg" alt="user icon">
+            <span class="user-nav__num">3</span>
+          </a>
+          <a class="user-nav__link" href="#">
+            <img clfss="user-nav__link-img" src="images/icons/cart.svg" alt="user icon">
+            <span class="user-nav__num">7</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <section class="top">
+      <div class="top__container" style="background-image: url('../images/top-bg.jpg');">
+        <div class="container">
+          <h2 class="top__title title">Shop page</h2>
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">
+                  Home
+                </a>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">
+                  Shop page
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="shop">
+      <div class="container">
+        <div class="shop__inner">
+          <div class="shop__filters filter">
+
+            <div class="filter-search filter__item">
+              <h3 class=" filter__title">Search</h3>
+              <form class="filter-search__form" action="#">
+                <input class="filter-search__input" type="text" placeholder="Search your keyword....">
+                <button class="filter-search__btn" type="submit">
+                  <img src="images/icons/search-white.svg" alt="search images">
+                </button>
+              </form>
+            </div>
+
+            <div class="filter__item filter-price">
+              <h3 class=" filter__title">Price Filter</h3>
+              <form class="filter-price__form" action="#">
+                <input class="filter-price__input" type="text" data-min="0" data-min="0" data-max="999" data-from="200"
+                  data-to="800">
+                <label for="" class="filter-price__label">
+                  <span>Price:
+                    $<span class="filter-price__from"></span> -
+                    $<span class="filter-price__to"></span>
+                  </span>
+                  <button class="filter-price__btn" type="submit">Filter</button>
+                </label>
+
+
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="shop__content"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item footer-top__contact">
+          <a class="logo footer-top__logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="Логотип MARCHO" />
+          </a>
+          <a class="footer-top__address" href="#">
+            <p>No. 342 - London Oxford Street,</p>
+            <p>012 United States</p>
+          </a>
+          <a class="footer-top__email" href="mailto:Youremail@gmail.com">
+            Youremail@gmail.com</a>
+          <a class="footer-top__phone" href="tel:+02838388393">+0283 838 8393</a>
+          <ul class="footer-top__social-list">
+            <li class="footer-top__social-item">
+              <a href="#" class="ul footer-top__social-link">
+                <img src="images/footer-nav/1.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a href="#" class="ul footer-top__social-link">
+                <img src="images/footer-nav/1.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a href="#" class="ul footer-top__social-link">
+                <img src="images/footer-nav/1.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a href="#" class="ul footer-top__social-link">
+                <img src="images/footer-nav/1.svg" alt="" />
+              </a>
+            </li>
+            <li class="footer-top__social-item">
+              <a href="#" class="ul footer-top__social-link">
+                <img src="images/footer-nav/1.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">Useful Links</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">About Us </a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Contact Us</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">My Account</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Account</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My Cart</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">My WIshlist</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Registration</a>
+            </li>
+            <li class="footer-top__item">
+              <a class="footer-top__link" href="#">Check Out</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__item-form">
+          <h6 class="footer-top__title">Subscribe Our Newsletter</h6>
+          <p class="footer-top__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+            suspendisse ultrices gravida.
+          </p>
+          <form class="footer-top__form">
+            <input class="footer-top__form-input" type="email" placeholder="Your email address" required />
+            <button class="footer-top__form-btn" type="button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2019 CodeAstrology. All Rights Reserved.</p>
+        <div class="footer-bottom__accept">
+          We Accept
+          <img class="footer-bottom__accept-img" src="images/footer-nav/2.svg" alt="оплата" />
+          <img class="footer-bottom__accept-img" src="images/footer-nav/2.svg" alt="оплата" />
+          <img class="footer-bottom__accept-img" src="images/footer-nav/2.svg" alt="оплата" />
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
