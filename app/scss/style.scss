@@ -1147,3 +1147,19 @@
   border: none;
   background-image: url('../images/icons/angle-down.svg');
 }
+.product-page{
+ padding: 120px 0 60px;
+ border-bottom: 1px solid #F0F0F0; 
+}
+.product-one{
+  &__inner{
+display: flex;
+  }
+  &__slide{
+    width: 730px;
+    margin-right: 70px;
+  }
+  &__content{
+    width: 370px;
+  }
+}
