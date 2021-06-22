@@ -22,6 +22,7 @@
   margin-bottom: 40px;
   @extend %roboto-700;
   font-size: 48px;
+  line-height: 52px;
 
   }
   &__text{
@@ -1150,3 +1151,5 @@ margin-bottom: 30px;
     @extend %btn;
     border: none;
 }
+
+@import 'media'
