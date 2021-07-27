@@ -5,4 +5,64 @@
 @import 'global';
 
 
+.header{
+  background-image: url(../images/bg-foto.jpg);
+  max-width: 100%;
+  min-height: 900px;
+  &__inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+}
+.menu{
+margin-top: 40px; 
+&__list{
+display: flex;
+}
+&__list-item--flag{
+ position: relative;
+}
+
+&__list-item + .menu__list-item{
+  margin-left: 32px;
+  
+ }
+ &__list-link{
+  padding: 40px 15px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+ }
+ &__list-link--flag::before{
+   content: url('../images/flag.svg');
+   margin-left: 30px;
+   position: absolute;
+ }
+}
+
+.header-title{
+  text-align: center;
+  margin: 300px 0 0 0;
+ 
+  &__text{
+  line-height: 60px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+  background-color: rgba(41, 41, 56, 0.712);
+  }
+  &__button{
+  padding: 12px 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(167, 23, 23, 0.739);
+  box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+  cursor: pointer;
+  }
+}
+
 @import 'media';
