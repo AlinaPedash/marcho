@@ -82,6 +82,47 @@ display: flex;
     line-height: 26px;
     margin-bottom: 70px;
   }
+  &__servise{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__servise-block{
+    width: 350px;
+    padding-left: 85px;
+    margin-bottom: 55px;
+    position: relative;
+
+  }
+  &__servise-block::before{
+    content: url('../images/note.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+  }
 }
+ .achievements__servise-text{
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+ 
+  .bottom{
+    cursor: pointer;
+    text-align: center;
+    &__link{
+      color: #FFF;
+      padding: 13px 36px;
+      background-color: #4985FF;
+      text-align: center;
+      border-radius: 30px;
+      margin-bottom: 100px;
+    }
+  }
+
 
 @import 'media';
