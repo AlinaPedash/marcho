@@ -114,15 +114,50 @@ display: flex;
   .bottom{
     cursor: pointer;
     text-align: center;
+    margin-bottom: 100px;
     &__link{
       color: #FFF;
       padding: 13px 36px;
       background-color: #4985FF;
       text-align: center;
       border-radius: 30px;
-      margin-bottom: 100px;
+      
     }
   }
+.statistic{
+  &__inner{
+  display: flex;
+  justify-content: space-between;
+  }
+  &__images{
+  background-repeat: no-repeat;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 55px;
+  }
+  &__content{
+  max-width: 490px;
+  margin-left: auto;
+  padding: 100px 0 215px;
+  }
+  &__title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 50px;
+  line-height: 53px;
+  text-align: left;
+  }
+  &__text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  }
 
+}
 
 @import 'media';
+
+
